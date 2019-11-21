@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-dreadapp-dev-131539-authRole",
+            "UnauthRoleArn": "arn:aws:iam::811769099702:role/amplify-dreadapp-dev-131539-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::811769099702:role/amplify-dreadapp-dev-131539-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-dreadapp-dev-131539-deployment",
+            "UnauthRoleName": "amplify-dreadapp-dev-131539-unauthRole",
+            "StackName": "amplify-dreadapp-dev-131539",
+            "StackId": "arn:aws:cloudformation:us-west-2:811769099702:stack/amplify-dreadapp-dev-131539/e765dc90-0bda-11ea-97d4-022a2754311a"
+        },
+        "categories": {
+            "auth": {
+                "dreadapp45dc0625": {}
+            }
+        }
+    }
+}

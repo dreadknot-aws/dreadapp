@@ -1,0 +1,48 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "dreadapp068108b0",
+            "privacy": {
+                "protected": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ],
+                "unauth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            }
+        }
+    ],
+    "resourceName": "apic2b9df9f",
+    "apiName": "apic2b9df9f",
+    "functionArns": [
+        {
+            "lambdaFunction": "dreadapp068108b0"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "amplify-dreadapp-dev-131539-authRole",
+        "unAuthRoleName": "amplify-dreadapp-dev-131539-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "dreadapp068108b0",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

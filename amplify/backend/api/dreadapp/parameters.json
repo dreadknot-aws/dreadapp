@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "dreadapp",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authdreadapp45dc0625",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

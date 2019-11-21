@@ -1,0 +1,20 @@
+{
+    "appName": "dreadapp",
+    "roleName": "pinpointLambdaRole3ac3bc8f",
+    "cloudWatchPolicyName": "cloudWatchPolicy3ac3bc8f",
+    "pinpointPolicyName": "pinpointPolicy3ac3bc8f",
+    "authPolicyName": "pinpoint_amplify_3ac3bc8f",
+    "unauthPolicyName": "pinpoint_amplify_3ac3bc8f",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
